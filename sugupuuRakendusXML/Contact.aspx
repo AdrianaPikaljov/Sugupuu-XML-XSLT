@@ -5,8 +5,16 @@
         <h2 id="title"><%: Title %>.</h2>
         <h3>Adriana Pikaljov</h3>
         <address>
-            Õpetaja poolt proovitud XSLT funktsioonid
+            Minu poolt proovitud XSLT funktsioonid
         </address>
+        <div>
+    <asp:Xml runat="server" 
+        DocumentSource="~/MinuSugupuu.xml"
+        TransformSource="~/SugupuuParing.xslt">
+
+    </asp:Xml>
+
+ </div>
 
     </main>
 </asp:Content>

@@ -27,6 +27,13 @@
                     <br /> substring(nimi, 1. 1) - eraldab nimimest 1.täht
                     <br /> substring(nimi, 1. 3) - eraldab nimimest esimesed 3 tähte
                     <br /> string-lenght(nimi) - sümboolite arv
+                    <br /> start-with(nimi, 'A') - tekstikontroll
+                    <br /> last() - viimane järjekorranumber
+                    <br /> position() - jooksva järjekorranumber
+                    <br /> not(), true(), false()
+                    <br /> normalize-space() - võtab tühikud ja muud vahed ära
+                    <br /> translate(nimi, algsümboolid, lõppsümboolid) - asendab tähed
+                    translate(kass, 'ss', 'tt') --> katt
         </section>
 
         
