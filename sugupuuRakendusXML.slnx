@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../SugupuuCore/SugupuuCore.csproj" />
   <Project Path="sugupuuRakendusXML/sugupuuRakendusXML.csproj" Id="fd774803-43a4-4ae2-8561-11affe6b063c" />
 </Solution>
