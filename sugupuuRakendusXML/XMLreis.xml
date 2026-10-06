@@ -9,7 +9,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>8</tunnid>
+			<paevad>8</paevad>
 		</kestus>
 		<hind>
 			<euro>450</euro>
@@ -24,7 +24,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>7</tunnid>
+			<paevad>7</paevad>
 		</kestus>
 		<hind>
 			<euro>520</euro>
@@ -39,7 +39,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>6</tunnid>
+			<paevad>6</paevad>
 		</kestus>
 		<hind>
 			<euro>480</euro>
@@ -54,7 +54,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>9</tunnid>
+			<paevad>9</paevad>
 		</kestus>
 		<hind>
 			<euro>390</euro>
@@ -69,7 +69,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>10</tunnid>
+			<paevad>10</paevad>
 		</kestus>
 		<hind>
 			<euro>410</euro>
@@ -84,7 +84,7 @@
 			<liik>Buss</liik>
 		</transport>
 		<kestus>
-			<tunnid>6</tunnid>
+			<paevad>6</paevad>
 		</kestus>
 		<hind>
 			<euro>180</euro>
@@ -99,7 +99,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>8</tunnid>
+			<paevad>8</paevad>
 		</kestus>
 		<hind>
 			<euro>360</euro>
@@ -114,7 +114,7 @@
 			<liik>Buss</liik>
 		</transport>
 		<kestus>
-			<tunnid>7</tunnid>
+			<paevad>7</paevad>
 		</kestus>
 		<hind>
 			<euro>220</euro>
@@ -129,7 +129,7 @@
 			<liik>Laev</liik>
 		</transport>
 		<kestus>
-			<tunnid>5</tunnid>
+			<paevad>5</paevad>
 		</kestus>
 		<hind>
 			<euro>330</euro>
@@ -144,7 +144,7 @@
 			<liik>Laev</liik>
 		</transport>
 		<kestus>
-			<tunnid>4</tunnid>
+			<paevad>4</paevad>
 		</kestus>
 		<hind>
 			<euro>280</euro>
@@ -159,7 +159,7 @@
 			<liik>Laev</liik>
 		</transport>
 		<kestus>
-			<tunnid>2</tunnid>
+			<paevad>2</paevad>
 		</kestus>
 		<hind>
 			<euro>120</euro>
@@ -174,7 +174,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>4</tunnid>
+			<paevad>4</paevad>
 		</kestus>
 		<hind>
 			<euro>650</euro>
@@ -189,10 +189,10 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>5</tunnid>
+			<paevad>5</paevad>
 		</kestus>
 		<hind>
-			<euro>470</euro>
+			<euro>480</euro>
 		</hind>
 	</reis>
 	<reis id="R014">
@@ -204,7 +204,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>4</tunnid>
+			<paevad>4</paevad>
 		</kestus>
 		<hind>
 			<euro>430</euro>
@@ -219,7 +219,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>4</tunnid>
+			<paevad>4</paevad>
 		</kestus>
 		<hind>
 			<euro>400</euro>
@@ -234,7 +234,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>9</tunnid>
+			<paevad>9</paevad>
 		</kestus>
 		<hind>
 			<euro>950</euro>
@@ -249,7 +249,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>11</tunnid>
+			<paevad>11</paevad>
 		</kestus>
 		<hind>
 			<euro>1200</euro>
@@ -264,7 +264,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>7</tunnid>
+			<paevad>7</paevad>
 		</kestus>
 		<hind>
 			<euro>850</euro>
@@ -279,7 +279,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>12</tunnid>
+			<paevad>12</paevad>
 		</kestus>
 		<hind>
 			<euro>1050</euro>
@@ -294,7 +294,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>22</tunnid>
+			<paevad>22</paevad>
 		</kestus>
 		<hind>
 			<euro>1600</euro>
@@ -309,7 +309,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>10</tunnid>
+			<paevad>10</paevad>
 		</kestus>
 		<hind>
 			<euro>900</euro>
@@ -324,7 +324,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>9</tunnid>
+			<paevad>9</paevad>
 		</kestus>
 		<hind>
 			<euro>780</euro>
@@ -339,7 +339,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>5</tunnid>
+			<paevad>5</paevad>
 		</kestus>
 		<hind>
 			<euro>620</euro>
@@ -354,7 +354,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>6</tunnid>
+			<paevad>6</paevad>
 		</kestus>
 		<hind>
 			<euro>350</euro>
@@ -369,7 +369,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>4</tunnid>
+			<paevad>4</paevad>
 		</kestus>
 		<hind>
 			<euro>420</euro>
@@ -384,7 +384,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>4</tunnid>
+			<paevad>4</paevad>
 		</kestus>
 		<hind>
 			<euro>440</euro>
@@ -399,7 +399,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>3</tunnid>
+			<paevad>3</paevad>
 		</kestus>
 		<hind>
 			<euro>370</euro>
@@ -414,7 +414,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>4</tunnid>
+			<paevad>4</paevad>
 		</kestus>
 		<hind>
 			<euro>510</euro>
@@ -429,7 +429,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>3</tunnid>
+			<paevad>3</paevad>
 		</kestus>
 		<hind>
 			<euro>580</euro>
@@ -444,7 +444,7 @@
 			<liik>Lennuk</liik>
 		</transport>
 		<kestus>
-			<tunnid>5</tunnid>
+			<paevad>5</paevad>
 		</kestus>
 		<hind>
 			<euro>390</euro>

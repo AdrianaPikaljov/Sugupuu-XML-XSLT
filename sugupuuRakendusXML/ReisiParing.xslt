@@ -7,11 +7,11 @@
 
 	<xsl:template match="/">
 
-		<strong>Lennureisid hinna järgi (odavamast kallimani)</strong>
+		<strong>Lennureisid</strong>
 
-		<!-- 6. filter: ainult lennuga reisid; 7. sorteerimine hinna järgi -->
+		<!-- 6. filter: ainult lennuga reisid; 7. sorteerimine paevade järgi -->
 		<xsl:for-each select="//reis[transport/liik='Lennuk']">
-			<xsl:sort select="hind/euro" data-type="number" order="ascending"/>
+		<xsl:sort select="kestus/paevad" data-type="number" order="descending"/>
 
 			<!-- 1. sihtkoht pealkirjana -->
 			<h1>
@@ -31,7 +31,7 @@
 				</li>
 				<li>
 					<xsl:attribute name="style">background-color: yellow;</xsl:attribute>
-					Kestus: <xsl:value-of select="kestus/tunnid"/> tundi
+					Kestus: <xsl:value-of select="kestus/paevad"/> päeva
 				</li>
 				<li>
 					<xsl:attribute name="style">background-color: yellow;</xsl:attribute>
@@ -39,12 +39,6 @@
 				</li>
 			</ul>
 
-			<!-- 5. kogumaksumus -->
-			<strong>
-				Kogumaksumus:
-				<xsl:value-of select="concat(hind/euro, ' €')"/>
-			</strong>
-			<br></br>
 
 			<!-- 4. oma tingimus: kallis reis esile tõstetud -->
 			<xsl:if test="hind/euro >= $kallis">
@@ -61,6 +55,13 @@
 			<hr></hr>
 		</xsl:for-each>
 
+		<!-- 5. kogumaksumus -->
+		<strong>
+			Kogumaksumus:
+			<xsl:value-of select="sum(//euro)"/> €
+		</strong>
+		<br></br>
+
 		<!-- 8. kõik andmed tabelina, read vahelduva värviga -->
 		<strong>Kõik reisid tabelina</strong>
 		<table border="1">
@@ -69,16 +70,16 @@
 				<th>Linn</th>
 				<th>Riik</th>
 				<th>Transport</th>
-				<th>Kestus (h)</th>
+				<th>Kestus (p)</th>
 				<th>Hind (€)</th>
 			</tr>
 			<xsl:for-each select="//reis">
 				<tr>
 					<xsl:if test="position() mod 2 = 1">
-						<xsl:attribute name="style">background-color: lightblue;</xsl:attribute>
+						<xsl:attribute name="style">background-color: pink;</xsl:attribute>
 					</xsl:if>
 					<xsl:if test="position() mod 2 = 0">
-						<xsl:attribute name="style">background-color: lightgreen;</xsl:attribute>
+						<xsl:attribute name="style">background-color: deepskyblue;</xsl:attribute>
 					</xsl:if>
 					<td>
 						<xsl:value-of select="@id"/>
@@ -93,7 +94,7 @@
 						<xsl:value-of select="transport/liik"/>
 					</td>
 					<td>
-						<xsl:value-of select="kestus/tunnid"/>
+						<xsl:value-of select="kestus/paevad"/>
 					</td>
 					<td>
 						<xsl:value-of select="hind/euro"/>
