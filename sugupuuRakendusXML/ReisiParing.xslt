@@ -55,7 +55,7 @@
 			<hr></hr>
 		</xsl:for-each>
 
-		<!-- 5. kogumaksumus -->
+		<!-- 5. kogumaksumuss -->
 		<strong>
 			Kogumaksumus:
 			<xsl:value-of select="sum(//euro)"/> €
